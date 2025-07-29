@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ffe0e0, #fff1f1);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.cracker {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cracker img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-content {
+  width: 60%;
+  text-align: center;
+  z-index: 2;
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  color: #ff4081;
+  margin-bottom: 10px;
+}
+
+.pookie-img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid #ff80ab;
+  box-shadow: 0 0 20px rgba(255, 64, 129, 0.4);
+  margin-bottom: 20px;
+}
+
+#reveal-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+#reveal-btn:hover {
+  background-color: #ff4081;
+}
+
+.hidden-message {
+  display: none;
+  font-size: 1.2rem;
+  color: #444;
+  padding: 0 20px;
+  line-height: 1.6;
+  background: #fff8f8;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 64, 129, 0.3);
+}
